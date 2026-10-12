@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the default controls, the nightly loop, and how to memorize the baseline of every room before your first visitor knocks."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "All Working Codes",
+          "description": "Redeem free cosmetics, currency, and boosts with the latest Home Alone Anomalies codes and a step-by-step redemption walkthrough."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Who to Let In",
+          "description": "Compare each visitor through the peephole, spot the subtle glitches, and decide who is real before a wrong call resets your run."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Home Alone Anomalies."
+          "title": "All Endings",
+          "description": "Line up every Home Alone Anomalies finale, the choices that trigger each one, and the fastest route to the ending you are still missing."
         }
       ]
     },
@@ -66,237 +66,277 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Anomaly Checklist",
+        "Who to Let In",
+        "All Endings",
+        "Working Codes"
       ],
       "cards": [
         {
           "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "title": "How to Play",
+          "description": "Controls, movement, and the anomaly-spotting habits that keep your first night alive.",
+          "href": "/controls/home-alone-anomalies-how-to-play"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "All Working Codes",
+          "description": "Where Home Alone Anomalies codes come from, how to redeem them, and why some stop working.",
+          "href": "/codes/home-alone-anomalies-codes"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Who to Let In",
+          "description": "The knock-check-decide loop and the visitor glitches that reveal an anomaly at the door.",
+          "href": "/mechanics/home-alone-anomalies-who-to-let-in"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "All Anomalies",
+          "description": "Every anomaly family, where each one hides, and how to catch it on your sweep.",
+          "href": "/mechanics/home-alone-anomalies-anomalies-list"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Complete Walkthrough",
+          "description": "A room-by-room route that turns anomaly hunting into a repeatable sweep.",
+          "href": "/guide/home-alone-anomalies-walkthrough"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "All Endings",
+          "description": "Every Home Alone Anomalies finale explained, with the trigger for each outcome.",
+          "href": "/guide/home-alone-anomalies-all-endings"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Home Alone Anomalies?",
       "paragraphs": [
-        "Home Alone Anomalies is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Home Alone Anomalies is a first-person horror observation game on Roblox built around one punishing question: has this room changed since you last looked? You are alone in a large suburban house, the doors are locked, and visitors keep arriving — some of them subtly wrong. Instead of fighting monsters, you compare every detail against the baseline you memorized at the start of the night.",
+        "A run follows the same rhythm every time. You sweep the house for object swaps, lighting shifts, duplicated furniture, and sound cues, then commit to an answer before the next knock. Let the wrong visitor in, or report an anomaly that is not there, and the night resets. Our wiki covers every system with room-by-room checklists, visitor profiles, a full walkthrough, and ending guides."
       ],
       "stats": [
-        {
-          "label": "Developer",
-          "value": "Midnight Continent"
-        },
         {
           "label": "Platform",
           "value": "Roblox"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Horror / Observation"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Playstyle",
+          "value": "Single & Co-op"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Visitor Profiles",
+          "value": "7"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Anomaly Families",
+          "value": "6"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Night Structure",
+          "value": "Repeating Loops"
+        },
+        {
+          "label": "Codes",
+          "value": "Tracked Weekly"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Home Alone Anomalies Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Everything you need to survive the night: visitor checks, a beginner walkthrough, a full anomaly checklist, camera and observation tools, working codes, and ending guides.",
       "modules": [
         {
           "order": 1,
-          "name": "Home Alone Anomalies Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/home-alone-anomalies-codes",
-          "displayType": "code-box",
+          "name": "Home Alone Anomalies Visitor Guide",
+          "description": "This module helps players identify suspicious visitors and learn the correct actions for each encounter. It covers visitor behaviors, warning signs, camera checks, and decision strategies for surviving the night.",
+          "href": "/mechanics/home-alone-anomalies-who-to-let-in",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "Knock",
+              "detail": "Stop moving and listen before you approach — rhythm, force, and number of knocks are all clues"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "Check",
+              "detail": "Observe face, clothing, shadow, and posture through the peephole from a fixed distance"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "Decide",
+              "detail": "Commit only when you can name one specific mismatch, then live with the call"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/home-alone-anomalies-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Home Alone Anomalies Beginner Guide",
+          "description": "A beginner-focused guide explaining the basic gameplay loop, house exploration, chores, cameras, and survival mechanics. It helps new players understand how to react when visitors arrive and avoid common mistakes.",
+          "href": "/controls/home-alone-anomalies-how-to-play",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "1",
+              "detail": "Walk one full lap of the house and memorize the baseline before the first knock"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "2",
+              "detail": "Set difficulty, brightness, subtitles, and sensitivity in the options menu"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "3",
+              "detail": "Open the journal for anything you are at least 60% sure about"
+            },
+            {
+              "label": "4",
+              "detail": "Report only details you can describe precisely, then move on without second-guessing"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/home-alone-anomalies-tier-list",
-          "displayType": "tier-grid",
+          "name": "Home Alone Anomalies Anomaly Checklist",
+          "description": "A checklist of known anomaly clues including camera differences, audio hints, room changes, and unusual visitor behaviors. Players can quickly compare observations before making a decision.",
+          "href": "/mechanics/home-alone-anomalies-anomalies-list",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Camera",
+              "detail": "Compare what the lens shows with the room you recorded on your first pass"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Audio",
+              "detail": "Listen for breathing, ticking, or footsteps that continue while you stand still"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Room",
+              "detail": "Count chairs, doors, and picture frames to catch swaps, duplications, and removals"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Visitor",
+              "detail": "Re-check the person at the door for a second mismatch before you commit"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/home-alone-anomalies-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Home Alone Anomalies Walkthrough",
+          "description": "A complete walkthrough covering the night progression, objectives, visitor encounters, and survival steps. This section targets players searching for solutions when they are stuck during a run.",
+          "href": "/guide/home-alone-anomalies-walkthrough",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1",
+              "detail": "Freeze at the doorway and take a clean first impression before stepping in"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "2",
+              "detail": "Wide scan left to right at eye level to catch large changes fast"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "3",
+              "detail": "Vertical scan up to the ceiling, then down to the floor"
+            },
+            {
+              "label": "4",
+              "detail": "Stand still for two seconds in every room and listen for audio anomalies"
+            },
+            {
+              "label": "5",
+              "detail": "Commit to an answer once, then advance without re-checking the room"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/home-alone-anomalies-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Home Alone Anomalies Camera Guide",
+          "description": "This module explains how to use cameras, night vision, and observation tools effectively. It focuses on finding hidden clues instead of relying only on visual appearance.",
+          "href": "/mechanics/home-alone-anomalies-how-to-know",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "S",
+              "detail": "Fixed-route camera sweep — the most reliable way to catch object swaps and lighting shifts"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "A",
+              "detail": "Audio pause in every room — the only method that catches sound-only anomalies"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "B",
+              "detail": "Per-night journal notes — stops your baseline from drifting after a few runs"
+            },
+            {
+              "label": "C",
+              "detail": "Flashlight-only checks — reveals fine detail but announces your position"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/home-alone-anomalies-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Home Alone Anomalies Codes",
+          "description": "A dedicated codes section for tracking active rewards, event codes, and possible redemption information. If no official codes exist, the page can clearly display the current status.",
+          "href": "/codes/home-alone-anomalies-codes",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Status",
+              "detail": "There are no public Home Alone Anomalies codes active right now; this page tracks new drops as they are announced"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Case",
+              "detail": "Codes are case-sensitive — HOMEALONE and homealone are not the same string"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Redeem",
+              "detail": "Open the gift or ticket icon in the lobby, paste the code, and confirm the reward"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Home Alone Anomalies Updates",
+          "description": "This module collects official update information, new visitors, events, gameplay changes, and seasonal content. It helps returning players quickly understand what changed after patches.",
+          "href": "/updates/home-alone-anomalies-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Night 2",
+              "detail": "A second night loop adds new rooms, extra visitor types, and a longer route"
+            },
+            {
+              "label": "New Faces",
+              "detail": "Fresh visitor profiles arrive with their own anomaly tells and door checks"
+            },
+            {
+              "label": "Fixes",
+              "detail": "Patch notes cover door logic, camera flicker, and co-op voice chat stability"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Home Alone Anomalies Tips and Tricks",
+          "description": "A strategy section featuring survival tips, efficient task completion methods, and advice for handling difficult visitor situations. It targets players looking for advanced improvement strategies.",
+          "href": "/guide/home-alone-anomalies-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Route",
+              "detail": "Walk the same sweep order every night so changes jump out by contrast"
+            },
+            {
+              "label": "Audio",
+              "detail": "If a room sounds wrong before it looks wrong, believe the sound"
+            },
+            {
+              "label": "Journal",
+              "detail": "Log anything you are more than 60% sure about instead of trusting memory"
             }
           ]
         }
@@ -308,23 +348,27 @@
       "items": [
         {
           "question": "What is Home Alone Anomalies?",
-          "answer": "Home Alone Anomalies is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Home Alone Anomalies is a first-person horror observation game on Roblox. You are alone in a large house, visitors keep arriving, and your job is to compare every room against the baseline you memorized at the start of the night. Report correctly and the night continues; let the wrong visitor in or miss a change and the run resets."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How do I start playing Home Alone Anomalies?",
+          "answer": "Load into the house, walk one full lap without touching anything, and memorize the normal state of each room. Learn the default controls — move, look, interact, sprint, crouch, flashlight, and the journal — then begin your first night."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Who should I let in in Home Alone Anomalies?",
+          "answer": "Use the peephole or a window and check the visitor's face, clothing, shadow, and posture against your baseline. If you can point to one specific mismatch, turn them away; if you cannot describe anything wrong, let them in."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Are there codes in Home Alone Anomalies?",
+          "answer": "The developers release Home Alone Anomalies codes for cosmetics, currency, and boosts during updates, milestones, and events. Codes are case-sensitive and often expire quietly, so redeem them the day you find them."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How many endings does Home Alone Anomalies have?",
+          "answer": "Home Alone Anomalies has multiple endings, including numbered outcomes and a secret ending that unlocks through specific choices during a run. Our endings hub breaks down the trigger for each one."
+        },
+        {
+          "question": "Can you play Home Alone Anomalies with friends?",
+          "answer": "Yes. Home Alone Anomalies supports co-op, and the most reliable setup is to split the house into zones, agree on who makes the final call, and use voice chat to share what you find."
         }
       ]
     },

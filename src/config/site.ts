@@ -1,3 +1,5 @@
+import type { Locale } from "@/i18n/routing";
+
 export interface SiteConfig {
   name: string;
   shortName: string;
@@ -15,7 +17,7 @@ export interface SiteConfig {
     tiktok?: string;
   };
   locales: readonly string[];
-  defaultLocale: string;
+  defaultLocale: Locale;
 }
 
 export const siteConfig: SiteConfig = {
@@ -32,6 +34,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://www.roblox.com/groups/715675394",
     youtube: "https://www.youtube.com/results?search_query=Home+Alone+Anomalies+Roblox",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "es", "pt", "de"],
   defaultLocale: "en",
 };

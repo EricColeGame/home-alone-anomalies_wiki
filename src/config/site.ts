@@ -25,12 +25,12 @@ export const siteConfig: SiteConfig = {
   tagline: "Visitor Guides, Anomaly Checklists & Survival Walkthroughs",
   description: "Your ultimate guide to Home Alone Anomalies on Roblox! Identify suspicious visitors, spot anomalies with camera and audio clues, and survive every night.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://home-alone-anomalies.wiki",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://home-alone-anomalies.wiki").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@home-alone-anomalies.wiki",
   gameUrl: "https://www.roblox.com/games/87468080405188/Home-Alone-Anomalies",
   heroVideoId: "F3I-qzX8hfg", // Roblox Home Alone Anomalies visitors & anomalies tutorial
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://www.roblox.com/groups/715675394",
+    youtube: "https://www.youtube.com/results?search_query=Home+Alone+Anomalies+Roblox",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",

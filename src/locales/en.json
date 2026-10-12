@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "characters": "Characters",
+    "mechanics": "Mechanics",
+    "lore": "Lore",
+    "controls": "Controls",
+    "codes": "Codes",
+    "updates": "Updates"
   },
   "home": {
     "meta": {
@@ -379,7 +386,34 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Home Alone Anomalies Guides",
+    "overviewDescription": "Start-to-finish Home Alone Anomalies guides covering the first night, every anomaly type, and how each ending is unlocked."
+  },
+  "characters": {
+    "overviewTitle": "Home Alone Anomalies Characters",
+    "overviewDescription": "Every visitor who knocks after dark in Home Alone Anomalies, with their tell-tale behavior, dialogue, and whether they should be let inside."
+  },
+  "mechanics": {
+    "overviewTitle": "Home Alone Anomalies Mechanics",
+    "overviewDescription": "How the Home Alone Anomalies rules really work: sanity, jumpscares, the fuse box, multiplayer sessions, and the anomaly checklist you follow each night."
+  },
+  "lore": {
+    "overviewTitle": "Home Alone Anomalies Lore & Story",
+    "overviewDescription": "The Home Alone Anomalies story explained, from the alien presence and monster sightings to the secret ending and community theories."
+  },
+  "controls": {
+    "overviewTitle": "Home Alone Anomalies Controls & How-To",
+    "overviewDescription": "Hands-on Home Alone Anomalies tutorials: the full control list, how to make coffee, how to fix the fuse box, and the basics every new player needs."
+  },
+  "codes": {
+    "overviewTitle": "Home Alone Anomalies Codes",
+    "overviewDescription": "All working Home Alone Anomalies codes in one place, plus a clear guide to redeeming them before they expire."
+  },
+  "updates": {
+    "overviewTitle": "Home Alone Anomalies Updates",
+    "overviewDescription": "Home Alone Anomalies patch notes and release news, including new characters, new visitors, and Night 2 changes."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -408,11 +442,11 @@
     "playGame": "Play Home Alone Anomalies",
     "officialDiscord": "Official Roblox Group",
     "officialYoutube": "Gameplay Videos",
-    "vvBuilder": "Anomaly Checklist",
+    "anomalyChecklist": "Anomaly Checklist",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "characterGuides": "Character Guides",
+    "mechanicsGuides": "Mechanics Guides",
+    "codesGuides": "Codes Guide",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

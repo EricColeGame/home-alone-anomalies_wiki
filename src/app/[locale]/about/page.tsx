@@ -1,10 +1,15 @@
+import { getMessages } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
+import type en from "@/locales/en.json";
 
-export default function AboutPage() {
+export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const messages = (await getMessages({ locale })) as typeof en;
+  const page = messages.legal.about;
+
   return (
-    <LegalPage title="About">
-      <p>Home Alone Anomalies Wiki is an independent fan-built guide hub covering visitor encounters, anomaly clues, camera checks, endings, and essential survival knowledge for new and veteran players alike.</p>
-      <p>The layout, navigation, article cards, and detail format are reproduced from the target Home Alone Anomalies wiki pages requested for this implementation.</p>
+    <LegalPage title={page.title}>
+      {page.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </LegalPage>
   );
 }

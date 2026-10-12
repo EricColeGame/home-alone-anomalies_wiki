@@ -1,1 +1,491 @@
-{}
+{
+  "site": {
+    "name": "Home Alone Anomalies Wiki",
+    "shortName": "Home Alone Anomalies",
+    "tagline": "Guías de visitantes, listas de anomalías y walkthroughs de supervivencia",
+    "description": "¡Tu guía definitiva de Home Alone Anomalies en Roblox! Identifica visitantes sospechosos, detecta anomalías con pistas de cámara y audio, y sobrevive cada noche.",
+    "legalNotice": "Wiki de fans no oficial. Hecha por jugadores, para jugadores."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guías",
+    "characters": "Personajes",
+    "mechanics": "Mecánicas",
+    "lore": "Historia",
+    "controls": "Controles",
+    "codes": "Códigos",
+    "updates": "Actualizaciones"
+  },
+  "home": {
+    "meta": {
+      "title": "Home Alone Anomalies Wiki - Guía, anomalías y walkthrough",
+      "description": "Explora la wiki de Home Alone Anomalies con guías detalladas, listas de anomalías, walkthroughs, consejos de juego y estrategias de supervivencia para resolver cada misterio."
+    },
+    "hero": {
+      "eyebrow": "Wiki comunitaria de fans",
+      "title": "Home Alone Anomalies Wiki",
+      "description": "Un juego de terror y misterio centrado en observar sucesos extraños, identificar anomalías y sobrevivir a encuentros inquietantes dentro de una casa aislada.",
+      "stats": [
+        "Más de 205 M de visitas",
+        "Lista de anomalías",
+        "0 códigos activos",
+        "Actualizaciones semanales"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Lista de anomalías",
+      "tertiaryCta": "Códigos activos",
+      "videoLabel": "Material oficial"
+    },
+    "updates": {
+      "title": "Últimas actualizaciones",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu aventura en Home Alone Anomalies",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Aprende los controles básicos, el bucle nocturno y cómo memorizar el estado inicial de cada habitación antes de que llame tu primer visitante."
+        },
+        {
+          "number": "2",
+          "title": "Todos los códigos activos",
+          "description": "Canjea cosméticos, moneda y mejoras gratis con los últimos códigos de Home Alone Anomalies y una guía paso a paso para canjearlos."
+        },
+        {
+          "number": "3",
+          "title": "A quién dejar entrar",
+          "description": "Compara a cada visitante por la mirilla, detecta los fallos sutiles y decide quién es real antes de que una mala decisión reinicie tu partida."
+        },
+        {
+          "number": "4",
+          "title": "Todos los finales",
+          "description": "Repasa todos los desenlaces de Home Alone Anomalies, las decisiones que activan cada uno y la ruta más rápida hacia el final que aún te falta."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias ahora",
+      "quickLinks": [
+        "Lista de anomalías",
+        "A quién dejar entrar",
+        "Todos los finales",
+        "Códigos activos"
+      ],
+      "cards": [
+        {
+          "badge": "Principiantes",
+          "title": "Cómo jugar",
+          "description": "Controles, movimiento y los hábitos de observación que mantienen viva tu primera noche.",
+          "href": "/controls/home-alone-anomalies-how-to-play"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Todos los códigos activos",
+          "description": "De dónde salen los códigos de Home Alone Anomalies, cómo canjearlos y por qué algunos dejan de funcionar.",
+          "href": "/codes/home-alone-anomalies-codes"
+        },
+        {
+          "badge": "Popular",
+          "title": "A quién dejar entrar",
+          "description": "El bucle de llamar, comprobar y decidir, y los fallos de los visitantes que delatan una anomalía en la puerta.",
+          "href": "/mechanics/home-alone-anomalies-who-to-let-in"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Todas las anomalías",
+          "description": "Cada familia de anomalías, dónde se esconde y cómo detectarla durante tu ronda.",
+          "href": "/mechanics/home-alone-anomalies-anomalies-list"
+        },
+        {
+          "badge": "Popular",
+          "title": "Walkthrough completo",
+          "description": "Una ruta habitación por habitación que convierte la caza de anomalías en una ronda repetible.",
+          "href": "/guide/home-alone-anomalies-walkthrough"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Todos los finales",
+          "description": "Todos los desenlaces de Home Alone Anomalies explicados, con la decisión que activa cada uno.",
+          "href": "/guide/home-alone-anomalies-all-endings"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Home Alone Anomalies?",
+      "paragraphs": [
+        "Home Alone Anomalies es un juego de terror y observación en primera persona para Roblox construido alrededor de una pregunta implacable: ¿ha cambiado esta habitación desde la última vez que la miraste? Estás solo en una gran casa suburbana, las puertas están cerradas y no paran de llegar visitantes, algunos sutilmente incorrectos. En lugar de luchar contra monstruos, comparas cada detalle con el estado inicial que memorizaste al empezar la noche.",
+        "Cada partida sigue el mismo ritmo. Recorres la casa buscando objetos cambiados, variaciones de luz, muebles duplicados y pistas de sonido, y luego te comprometes con una respuesta antes de la siguiente llamada. Si dejas entrar al visitante equivocado o denuncias una anomalía que no existe, la noche se reinicia. Nuestra wiki cubre todos los sistemas con listas habitación por habitación, perfiles de visitantes, un walkthrough completo y guías de finales."
+      ],
+      "stats": [
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Género",
+          "value": "Terror / Observación"
+        },
+        {
+          "label": "Modo de juego",
+          "value": "Individual y cooperativo"
+        },
+        {
+          "label": "Perfiles de visitantes",
+          "value": "7"
+        },
+        {
+          "label": "Familias de anomalías",
+          "value": "6"
+        },
+        {
+          "label": "Estructura nocturna",
+          "value": "Bucles repetidos"
+        },
+        {
+          "label": "Códigos",
+          "value": "Seguimiento semanal"
+        }
+      ],
+      "cta": "Explorar todas las guías"
+    },
+    "explore": {
+      "title": "Explora la wiki de Home Alone Anomalies",
+      "description": "Todo lo que necesitas para sobrevivir la noche: comprobación de visitantes, un walkthrough para principiantes, una lista completa de anomalías, herramientas de cámara y observación, códigos activos y guías de finales.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía de visitantes de Home Alone Anomalies",
+          "description": "Este módulo ayuda a los jugadores a identificar visitantes sospechosos y a aprender las acciones correctas en cada encuentro. Cubre comportamientos de los visitantes, señales de advertencia, comprobaciones con cámara y estrategias de decisión para sobrevivir la noche.",
+          "href": "/mechanics/home-alone-anomalies-who-to-let-in",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Llamada",
+              "detail": "Deja de moverte y escucha antes de acercarte: el ritmo, la fuerza y el número de golpes son pistas"
+            },
+            {
+              "label": "Comprobar",
+              "detail": "Observa cara, ropa, sombra y postura por la mirilla desde una distancia fija"
+            },
+            {
+              "label": "Decidir",
+              "detail": "Decídete solo cuando puedas nombrar una discrepancia concreta, y asume la decisión"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía para principiantes de Home Alone Anomalies",
+          "description": "Una guía para principiantes que explica el bucle básico de juego, la exploración de la casa, las tareas, las cámaras y las mecánicas de supervivencia. Ayuda a los nuevos jugadores a entender cómo reaccionar cuando llegan visitantes y a evitar errores comunes.",
+          "href": "/controls/home-alone-anomalies-how-to-play",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Da una vuelta completa a la casa y memoriza el estado inicial antes de la primera llamada"
+            },
+            {
+              "label": "2",
+              "detail": "Ajusta dificultad, brillo, subtítulos y sensibilidad en el menú de opciones"
+            },
+            {
+              "label": "3",
+              "detail": "Abre el diario para cualquier cosa de la que estés al menos un 60 % seguro"
+            },
+            {
+              "label": "4",
+              "detail": "Denuncia solo detalles que puedas describir con precisión y sigue adelante sin dudar"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Lista de anomalías de Home Alone Anomalies",
+          "description": "Una lista de pistas de anomalías conocidas, incluidas diferencias de cámara, pistas de audio, cambios en las habitaciones y comportamientos inusuales de los visitantes. Los jugadores pueden comparar observaciones rápidamente antes de decidir.",
+          "href": "/mechanics/home-alone-anomalies-anomalies-list",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Cámara",
+              "detail": "Compara lo que muestra la lente con la habitación que registraste en tu primera ronda"
+            },
+            {
+              "label": "Audio",
+              "detail": "Escucha respiraciones, tics o pasos que continúan mientras estás quieto"
+            },
+            {
+              "label": "Habitación",
+              "detail": "Cuenta sillas, puertas y cuadros para detectar cambios, duplicados y objetos eliminados"
+            },
+            {
+              "label": "Visitante",
+              "detail": "Vuelve a revisar a la persona en la puerta buscando una segunda discrepancia antes de decidir"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Walkthrough de Home Alone Anomalies",
+          "description": "Un walkthrough completo que cubre el avance de la noche, los objetivos, los encuentros con visitantes y los pasos de supervivencia. Esta sección está pensada para jugadores que buscan soluciones cuando se quedan atascados.",
+          "href": "/guide/home-alone-anomalies-walkthrough",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Detente en la puerta y capta una primera impresión limpia antes de entrar"
+            },
+            {
+              "label": "2",
+              "detail": "Escaneo amplio de izquierda a derecha a la altura de los ojos para detectar cambios grandes rápido"
+            },
+            {
+              "label": "3",
+              "detail": "Escaneo vertical hasta el techo y luego hacia abajo hasta el suelo"
+            },
+            {
+              "label": "4",
+              "detail": "Quédate quieto dos segundos en cada habitación y escucha si hay anomalías de audio"
+            },
+            {
+              "label": "5",
+              "detail": "Decídete una sola vez y avanza sin volver a revisar la habitación"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía de cámara de Home Alone Anomalies",
+          "description": "Este módulo explica cómo usar cámaras, visión nocturna y herramientas de observación de forma eficaz. Se centra en encontrar pistas ocultas en lugar de depender solo del aspecto visual.",
+          "href": "/mechanics/home-alone-anomalies-how-to-know",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Ronda de cámara con ruta fija: la forma más fiable de detectar objetos cambiados y variaciones de luz"
+            },
+            {
+              "label": "A",
+              "detail": "Pausa de audio en cada habitación: el único método que detecta anomalías solo de sonido"
+            },
+            {
+              "label": "B",
+              "detail": "Notas del diario por noche: evita que tu referencia se desvíe tras varias partidas"
+            },
+            {
+              "label": "C",
+              "detail": "Comprobaciones solo con linterna: revela detalles finos pero anuncia tu posición"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Códigos de Home Alone Anomalies",
+          "description": "Una sección de códigos dedicada al seguimiento de recompensas activas, códigos de eventos e información de canje. Si no existen códigos oficiales, la página muestra claramente el estado actual.",
+          "href": "/codes/home-alone-anomalies-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Estado",
+              "detail": "Ahora mismo no hay códigos públicos de Home Alone Anomalies activos; esta página sigue los nuevos lanzamientos en cuanto se anuncian"
+            },
+            {
+              "label": "Mayúsculas",
+              "detail": "Los códigos distinguen mayúsculas de minúsculas: HOMEALONE y homealone no son la misma cadena"
+            },
+            {
+              "label": "Canje",
+              "detail": "Abre el icono de regalo o ticket en el vestíbulo, pega el código y confirma la recompensa"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Actualizaciones de Home Alone Anomalies",
+          "description": "Este módulo reúne información oficial de actualizaciones, nuevos visitantes, eventos, cambios de jugabilidad y contenido de temporada. Ayuda a los jugadores que regresan a entender rápido qué cambió tras los parches.",
+          "href": "/updates/home-alone-anomalies-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Noche 2",
+              "detail": "Un segundo bucle nocturno añade habitaciones nuevas, más tipos de visitantes y una ruta más larga"
+            },
+            {
+              "label": "Caras nuevas",
+              "detail": "Llegan nuevos perfiles de visitantes con sus propias señales de anomalía y comprobaciones en la puerta"
+            },
+            {
+              "label": "Correcciones",
+              "detail": "Las notas del parche cubren la lógica de puertas, el parpadeo de cámara y la estabilidad del chat de voz cooperativo"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Consejos y trucos de Home Alone Anomalies",
+          "description": "Una sección de estrategia con consejos de supervivencia, métodos eficientes para completar tareas y consejos para manejar situaciones difíciles con visitantes. Está pensada para jugadores que buscan estrategias de mejora avanzadas.",
+          "href": "/guide/home-alone-anomalies-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Ruta",
+              "detail": "Recorre siempre el mismo orden cada noche para que los cambios destaquen por contraste"
+            },
+            {
+              "label": "Audio",
+              "detail": "Si una habitación suena mal antes de verse mal, haz caso al sonido"
+            },
+            {
+              "label": "Diario",
+              "detail": "Anota cualquier cosa de la que estés más de un 60 % seguro en lugar de fiarte de la memoria"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas rápidas a las preguntas más comunes sobre Home Alone Anomalies.",
+      "items": [
+        {
+          "question": "¿Qué es Home Alone Anomalies?",
+          "answer": "Home Alone Anomalies es un juego de terror y observación en primera persona para Roblox. Estás solo en una casa grande, no dejan de llegar visitantes y tu trabajo es comparar cada habitación con el estado inicial que memorizaste al empezar la noche. Denuncia bien y la noche continúa; deja entrar al visitante equivocado o pasa por alto un cambio y la partida se reinicia."
+        },
+        {
+          "question": "¿Cómo empiezo a jugar a Home Alone Anomalies?",
+          "answer": "Entra en la casa, da una vuelta completa sin tocar nada y memoriza el estado normal de cada habitación. Aprende los controles básicos (moverse, mirar, interactuar, esprintar, agacharse, linterna y diario) y empieza tu primera noche."
+        },
+        {
+          "question": "¿A quién debo dejar entrar en Home Alone Anomalies?",
+          "answer": "Usa la mirilla o una ventana y compara la cara, la ropa, la sombra y la postura del visitante con tu referencia. Si puedes señalar una discrepancia concreta, no le abras; si no puedes describir nada raro, déjale entrar."
+        },
+        {
+          "question": "¿Hay códigos en Home Alone Anomalies?",
+          "answer": "Los desarrolladores publican códigos de Home Alone Anomalies para cosméticos, moneda y mejoras durante actualizaciones, hitos y eventos. Los códigos distinguen mayúsculas y suelen caducar sin aviso, así que canjéalos el mismo día que los encuentres."
+        },
+        {
+          "question": "¿Cuántos finales tiene Home Alone Anomalies?",
+          "answer": "Home Alone Anomalies tiene varios finales, incluidos desenlaces numerados y un final secreto que se desbloquea con decisiones concretas durante una partida. Nuestro centro de finales detalla la decisión que activa cada uno."
+        },
+        {
+          "question": "¿Se puede jugar a Home Alone Anomalies con amigos?",
+          "answer": "Sí. Home Alone Anomalies admite cooperativo, y la forma más fiable es dividir la casa en zonas, acordar quién toma la decisión final y usar el chat de voz para compartir lo que encontráis."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para sobrevivir la noche en Home Alone Anomalies?",
+      "description": "Desde tu primera comprobación con la cámara hasta sobrevivir a cada encuentro con visitantes, nuestra wiki comunitaria te cubre con guías gratuitas y actualizadas.",
+      "primary": "Leer la guía para principiantes",
+      "secondary": "Jugar en Roblox"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guías de Home Alone Anomalies",
+    "overviewDescription": "Guías de Home Alone Anomalies de principio a fin que cubren la primera noche, todos los tipos de anomalía y cómo se desbloquea cada final."
+  },
+  "characters": {
+    "overviewTitle": "Personajes de Home Alone Anomalies",
+    "overviewDescription": "Todos los visitantes que llaman a la puerta de noche en Home Alone Anomalies, con su comportamiento revelador, sus diálogos y si conviene dejarles entrar."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de Home Alone Anomalies",
+    "overviewDescription": "Cómo funcionan de verdad las reglas de Home Alone Anomalies: cordura, sustos, la caja de fusibles, las partidas multijugador y la lista de anomalías que sigues cada noche."
+  },
+  "lore": {
+    "overviewTitle": "Historia y lore de Home Alone Anomalies",
+    "overviewDescription": "La historia de Home Alone Anomalies explicada, desde la presencia alienígena y los avistamientos de monstruos hasta el final secreto y las teorías de la comunidad."
+  },
+  "controls": {
+    "overviewTitle": "Controles y tutoriales de Home Alone Anomalies",
+    "overviewDescription": "Tutoriales prácticos de Home Alone Anomalies: la lista completa de controles, cómo hacer café, cómo arreglar la caja de fusibles y lo básico que necesita todo jugador nuevo."
+  },
+  "codes": {
+    "overviewTitle": "Códigos de Home Alone Anomalies",
+    "overviewDescription": "Todos los códigos activos de Home Alone Anomalies en un solo lugar, además de una guía clara para canjearlos antes de que caduquen."
+  },
+  "updates": {
+    "overviewTitle": "Actualizaciones de Home Alone Anomalies",
+    "overviewDescription": "Notas de parche y novedades de Home Alone Anomalies, incluidos nuevos personajes, nuevos visitantes y los cambios de la Noche 2."
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Tabla de contenidos",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Material oficial",
+    "home": "Inicio",
+    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La guía que buscas puede haberse movido o aún no se ha añadido.",
+    "browse": "Ver guías"
+  },
+  "legal": {
+    "about": {
+      "title": "Acerca de",
+      "body": [
+        "Home Alone Anomalies Wiki es un centro de guías independiente creado por fans que cubre encuentros con visitantes, pistas de anomalías, comprobaciones con cámara, finales y conocimientos esenciales de supervivencia tanto para jugadores nuevos como veteranos.",
+        "El diseño, la navegación, las tarjetas de artículos y el formato de detalle se reproducen de las páginas de la wiki de Home Alone Anomalies solicitadas para esta implementación."
+      ]
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "body": [
+        "Esta wiki de fans ofrece guías informativas del juego Home Alone Anomalies. No solicitamos credenciales de cuenta, contraseñas de Roblox ni información privada de pago.",
+        "Los proveedores básicos de analítica, publicidad y alojamiento pueden procesar información técnica estándar, como el tipo de dispositivo, el navegador, la región aproximada y las páginas visitadas.",
+        "Los enlaces externos pueden llevar a Roblox, Discord, YouTube o herramientas de la comunidad. Esos servicios se rigen por sus propias políticas de privacidad."
+      ]
+    },
+    "terms": {
+      "title": "Términos de servicio",
+      "body": [
+        "Este sitio es un centro de guías independiente hecho por fans. El contenido se ofrece solo con fines informativos y de entretenimiento.",
+        "Los sistemas del juego, los códigos, los drops y los detalles de las actualizaciones pueden cambiar sin aviso. Verifica siempre la información importante dentro del juego o en los canales oficiales.",
+        "Al usar este sitio, aceptas no hacer un uso indebido, no intentar accesos no autorizados y no presentar esta wiki de fans como una propiedad oficial de 3 AM Productions & Freeground o de Roblox."
+      ]
+    },
+    "copyright": {
+      "title": "Copyright",
+      "body": [
+        "Home Alone Anomalies, Roblox y los medios relacionados pertenecen a sus respectivos propietarios. Home Alone Anomalies está desarrollado por 3 AM Productions & Freeground.",
+        "Esta réplica es una implementación de wiki de fans no oficial con fines educativos y de presentación de guías.",
+        "Si eres propietario de derechos sobre contenido mostrado aquí y tienes alguna duda, contacta con el operador del sitio para su revisión."
+      ]
+    }
+  },
+  "footer": {
+    "aboutTitle": "Home Alone Anomalies Wiki",
+    "about": "Home Alone Anomalies Wiki es un centro de guías independiente creado por fans que cubre encuentros con visitantes, pistas de anomalías, comprobaciones con cámara, finales y conocimientos esenciales de supervivencia tanto para jugadores nuevos como veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Home Alone Anomalies Wiki. Sin afiliación con 3 AM Productions & Freeground ni con Roblox.",
+    "description": "Juego gratuito de terror y misterio en Roblox. Detecta anomalías, identifica visitantes y sobrevive la noche.",
+    "playGame": "Jugar a Home Alone Anomalies",
+    "officialDiscord": "Grupo oficial de Roblox",
+    "officialYoutube": "Vídeos de gameplay",
+    "anomalyChecklist": "Lista de anomalías",
+    "beginnerGuide": "Guía para principiantes",
+    "characterGuides": "Guías de personajes",
+    "mechanicsGuides": "Guías de mecánicas",
+    "codesGuides": "Guía de códigos",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio"
+  }
+}

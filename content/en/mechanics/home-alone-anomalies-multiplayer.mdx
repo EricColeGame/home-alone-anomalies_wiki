@@ -1,116 +1,76 @@
 export const metadata = {
-  title: "Home Alone Anomalies Multiplayer Guide: Co-op Mechanics, Callouts, and Strategy",
-  description: "Learn how home alone anomalies multiplayer sessions work: co-op callouts, role splitting, desync fixes, and strategies for spotting anomalies together.",
+  title: "Home Alone Anomalies: A Practical Guide to Trust, Cameras, and the Porch Light",
+  description: "How Home Alone Anomalies works on Roblox: camera checks, visitor dialogue, the porch light rule, and the October 2026 Halloween update.",
   category: "mechanics",
-  date: "2026-10-12",
-}
+  date: "2026-10-14",
+};
 
-## What Are Home Alone Anomalies? A Quick Genre Primer
+If you have played one anomaly-spotting game on Roblox, you probably assume you know how Home Alone Anomalies works. You would be half right. This experience keeps the observation-and-judgment loop that makes the genre tense, but it swaps the empty hallway for a front door, and it swaps "spot the difference" for "decide whether to let someone in." That single change reframes everything: the threat is not a shifted painting or a duplicated chair, it is a person asking you for help while you stand on the other side of a locked door.
 
-Home alone anomalies multiplayer turns an empty suburban house into a shared test of memory and nerve. Instead of hunting glitches alone, you and a partner or a small crew sweep the same rooms, compare notes, and argue about whether that lamp was always tilted. Why does it matter? Because the entire genre runs on uncertainty, and home alone anomalies multiplayer makes that uncertainty social — louder, funnier, and much harder to dismiss.
+The official Roblox page for [Home Alone Anomalies](https://www.roblox.com/games/87468080405188/Home-Alone-Anomalies) frames the premise directly. You are home alone, visitors keep arriving, and not everyone is who they claim to be. Your job is to sort the genuine callers from the impostors and make it to morning. It is created by the groups 3 AM Productions and Freeground, supports up to 18 players per server, and had accumulated roughly 208 million visits as of the official record retrieved on October 14, 2026. It is a different experience from Anomaly Watch, despite the shared vocabulary, and mixing the two up will send you looking for mechanics that do not exist here.
 
-Anomaly games ask one question: *what changed?* The "home alone" flavor narrows the setting to a single house — hallway, kitchen, bedroom, basement — and leans on the uneasy feeling of a space that should be empty. Most versions use a loop: enter, observe, report, reset. Flag a real anomaly correctly and you advance; miss one, or report a clean room, and you lose progress.
+## What the official page actually advertises
 
-Players across the genre often describe the tension as coming from the ordinary rather than the monstrous. A chair turned twenty degrees. A photograph that lost a face. A door that is now closed when it was open. If you want a sense of how varied these observation-driven releases have become, you can browse [Steam's anomaly horror catalog](https://store.steampowered.com/search/?term=anomaly) and see how many of them build on the same reporting loop.
+The developer description is unusually specific about the core loop, and it is worth treating as the authority rather than relying on secondhand summaries. It lists checking cameras, listening to what visitors say, opening the door when someone needs help, and turning off the porch light when something feels off. Surviving the night earns cash, and there are troll items designed to be used on friends. That is the whole advertised skeleton: observe, listen, judge, act, repeat until dawn.
 
-The multiplayer layer changes the math. In home alone anomalies multiplayer, the loop stays the same, but the observation load is shared — and the coordination cost is not zero.
+Two design details stand out. First, the porch light is a real decision variable, not decoration. Turning it off is presented as the correct response when something is wrong, which means the light itself functions as a signal you control rather than a fixed piece of scenery. Second, the page explicitly warns not everyone is who they claim to be. That wording matters: the game is telling you that a visitor's stated identity is not proof of anything, so the verification work falls on you.
 
-| Element | Single-Player | Multiplayer |
-|---|---|---|
-| Observation load | One player tracks every room | Split across players, each becomes an expert on a zone |
-| Anomaly verification | You decide alone | A second opinion filters false positives |
-| Memory pressure | High — you hold the whole house in your head | Lower per player, but higher coordination cost |
-| Common failure | Missing a subtle change | Disagreement, desync, or a teammate flagging wrong |
-| Social layer | None | Voice chat, callouts, blame, inside jokes |
+The page also documents a current update. UPDATE 12, dated October 10, 2026, is a Halloween event featuring collectible pumpkins and a Halloween Pass, costumed visitors, new pets (Black Cat, White Cat, and Crawler Cat), a Top 100 pumpkin leaderboard with a Celestial Cat reward, plus bug fixes. If you are playing during the event window, expect the visitor pool to look different from the baseline version, because costumed arrivals are part of the advertised event content.
 
-## Core Multiplayer Mechanics That Shape Every Session
+## The porch light rule, and why it is the crux
 
-A handful of systems do most of the work in home alone anomalies multiplayer. Understanding them makes the difference between a smooth run and twenty minutes of arguing in a hallway.
+Most genre games punish you for missing a detail. Here, the porch light gives you an active tool, and the official wording implies a simple default: if a visitor seems legitimate and needs help, you open the door; if something is off, you kill the light. The hard part is that "something is off" is deliberately vague in the official material. The developers do not publish a checklist of tells, and no reputable source I can rely on provides one either.
 
-| Mechanic | How It Typically Works | Why It Matters |
-|---|---|---|
-| Shared anomaly state | The round generates one authoritative list of active anomalies that all players should see | If the list is not synced, players genuinely see different realities and trust collapses |
-| Independent rendering | Each client draws its own lighting, field of view, and draw distance | Tiny rendering differences create "phantom" anomalies that only one player can see |
-| Confirmation step | Some designs require two players to flag the same thing; others accept a single report | Determines whether the game is a solo reflex test or a true team deduction exercise |
-| Round timer | A shared clock that advances or resets as anomalies are resolved | Controls pacing and punishes endless debating |
-| Penalty / reset | A wrong report often rolls back progress for the entire lobby | Creates tension, but also creates blame — design matters here |
-| Slot or role assignment | The host or lobby decides who covers which wing | The single biggest quality-of-life feature for groups larger than two |
-| Voice chat | Built-in proximity chat or an external call | Callout speed is the real skill ceiling of co-op anomaly hunting |
+That omission is not a gap you should try to fill with invented rules. If you see a guide claiming a definitive list of anomaly names, house layouts, or exact visitor behaviors, treat it as a third-party observation at best. Third-party guides can be genuinely useful for learning patterns, but they are not developer documentation and they go stale after updates. The honest position is that the official page tells you the verbs (check cameras, listen, open, turn off the light) and leaves the judgment criteria for you to learn by playing.
 
-Community reports frequently highlight the confirmation step as the most divisive mechanic. Requiring two reports makes sessions feel like detective work, but it slows everything down and can deadlock a duo who disagree. Accepting single reports keeps the pace snappy but hands griefers an easy way to waste everyone's time.
+What you can do is play the loop deliberately. Use the cameras before you touch the door, so you are not deciding based on a voice alone. Listen to the full line of dialogue rather than reacting to the first word. Then make one call: door or darkness. If you are wrong, you learn something specific about what that visitor type does, which is more valuable than memorizing someone else's list.
 
-## Callouts and Communication: The Heart of Co-op Anomaly Hunting
+| Documented by the official page | Not documented by official sources |
+| --- | --- |
+| Camera checking as a core action | A named roster of visitors or anomalies |
+| Listening to visitor dialogue | Exact dialogue lines or trigger phrases |
+| Opening the door when help is needed | House layout or room-by-room map |
+| Turning off the porch light when something is off | Alternate endings or their conditions |
+| Earning cash for surviving the night | Payout amounts or pricing |
+| Troll items for friends | Promo codes of any kind |
+| UPDATE 12 Halloween event, pets, pumpkin leaderboard | Drop rates for collectibles or pets |
 
-Callouts are the connective tissue of home alone anomalies multiplayer. A vague callout — "something's off in the kitchen" — costs your team a full sweep. A precise one costs three seconds.
+## Cameras, dialogue, and the cash loop
 
-| Callout Type | Example | Why It Helps |
-|---|---|---|
-| Location-first | "Upstairs hall, north wall" | Lets teammates look immediately instead of asking where |
-| Delta description | "Frame is empty," "clock reads differently" | Describes the change, not your interpretation of it |
-| Confidence tag | "Confirmed" vs. "Maybe" | Lets the team prioritize without a debate |
-| Negative report | "Kitchen clean" | Prevents three people from sweeping the same room |
-| Verification request | "Need eyes on the study" | Routes a second player to a disputed room fast |
+The camera step exists to make the door decision informed rather than blind. In practice that means the cameras are your first pass and the door is your commitment. The official page pairs cameras with listening, which suggests the two are meant to be used together: what you see outside and what you hear from the visitor should corroborate each other. When they do not line up, that mismatch is your cue.
 
-A few habits separate clean teams from chaotic ones:
+Surviving the night pays cash, per the official description. The page does not state amounts, multipliers, or what cash buys, so anyone quoting a specific figure is either datamining without attribution or guessing. The safe assumption is that cash is a progression currency tied to how many nights you survive, and that consistency matters more than any single lucky run.
 
-- **Agree on room names before the round starts.** "The blue room" means nothing if half the lobby calls it the guest room.
-- **Keep callouts under five words.** Long sentences get talked over when two people spot something at once.
-- **Never say "it looks weird" without a comparison.** Memory-based games reward comparisons, not vibes.
-- **Do not talk over whoever is reading the report log.** Most wipes in home alone anomalies multiplayer start with a missed confirmation line.
-- **Repeat a confirmed anomaly once, then stop.** Repeating it five times buries the next callout.
+The multiplayer ceiling of 18 players per server is worth noting because it shapes the social texture. With that many people in a server, the experience is not purely solitary dread; you will see other players moving through the same night. Troll items, which the page describes as usable on friends, confirm that the developers intend a certain amount of comedic interference alongside the tension. If you are playing with a group, expect someone to use one on you, and do not read it as a bug.
 
-## Roles, Routes, and House Sweep Strategy
+## The Halloween update and what it changes
 
-In home alone anomalies multiplayer, roles matter more than raw observation speed. A fast player with no route wastes more time than a slow player with a fixed path.
+UPDATE 12, dated October 10, 2026, is the most recent documented change. Three elements are confirmed: collectible pumpkins with a Top 100 leaderboard, a Halloween Pass, and new pets in three variants. The pumpkin leaderboard is competitive, and the Celestial Cat is listed as a reward tied to it, though the page does not specify the exact placement threshold beyond "Top 100." The pets themselves are cosmetic or companion-style additions as far as the official text goes; nothing on the page describes gameplay effects for the Black Cat, White Cat, or Crawler Cat, so do not assume they change visitor behavior.
 
-| Role | Job | Best For |
-|---|---|---|
-| Sweeper | Walks a fixed route and reports deltas only | Players with strong visual memory |
-| Anchor / Verifier | Stays central, checks disputed rooms on request | Calm players who resist panic |
-| Documenter | Tracks which anomalies are confirmed and which are pending | Anyone who likes note-taking or a shared checklist |
-| Runner | Handles resets, door checks, and time-sensitive objectives | Players who prefer movement over staring |
+Costumed visitors are the other meaningful change. If the Halloween event is live, some arrivals will be in costume, which likely complicates the identity question at the heart of the game. Whether that makes them easier or harder to read is not documented, and it is the kind of thing you should verify yourself in a live server rather than trusting a summary.
 
-Route planning is where most groups quietly improve. Try these patterns:
+## Verifying anything you read elsewhere
 
-1. **Fixed clockwise sweeps.** Every player walks the same direction every lap so nobody collides in a doorway.
-2. **One clean lap, one detailed lap.** The first pass is a fast baseline; the second pass is slow and comparative.
-3. **Rotate roles every few rounds.** A verifier who has never swept a room cannot judge whether a teammate's report is plausible.
-4. **Call the swap.** "Swapping to verifier" prevents two people from doing the same job while a third room goes unchecked.
+Because the developer documentation is thin on specifics, the most reliable verification path is the game itself plus the official page. Open the store page, read the description text carefully, and check the last-updated date at the bottom. If a guide contradicts the page, the page wins. If a guide claims promo codes exist, note that the official page documents none, so any code list circulating online should be treated as unverified.
 
-## Failure Points, Fixes, and Difficulty Scaling
-
-Most home alone anomalies multiplayer frustration traces back to a small set of predictable problems. None of them require a patch — they require a protocol.
-
-| Problem | Symptom | Fix |
-|---|---|---|
-| Desync or lighting differences | One player swears a room changed; nobody else sees it | Treat one-player-only reports as "unverified" and move on rather than resetting the round |
-| Voice delay | Callouts arrive after the room has been left | Use location-first callouts so late audio still makes sense |
-| Over-trust | The team stops checking because one player "always gets it right" | Rotate verifier duty so no single person becomes the sole source of truth |
-| Tunnel vision | A group hyper-focuses on one room and misses three others | Enforce the fixed sweep even when something looks suspicious |
-| Griefing or false flags | A player repeatedly reports clean rooms | Require two confirmations, or play with a trusted group |
-| Group too large | Everyone talks, nobody observes | Cap the lobby or assign strictly separated zones |
-
-Group size changes the whole experience, and most groups find their sweet spot after a few sessions:
-
-| Group Size | Recommended Setup | Notes |
-|---|---|---|
-| Solo | Full house, no roles | Pure memory test; hardest version of the loop |
-| Duo | Split the house in half, swap mid-round | Best balance of tension and communication |
-| Trio | Two sweepers, one verifier | Fast verification without voice chaos |
-| Four or more | Fixed zones, one anchor, hard callout rules | Fun but requires discipline; assign a caller |
+Within a session, you can test claims cheaply. Watch a visitor on camera through a full approach, listen to the entire dialogue, then make your call and note the result. Repeat across several nights and you build your own private dataset, which beats borrowed checklists that were written before UPDATE 12.
 
 ## FAQ
 
-**Is home alone anomalies multiplayer better than playing solo?**
-It is different rather than strictly better. Solo play is a pure memory and nerve test. Home alone anomalies multiplayer adds verification, blame, and negotiation — which makes it more social and often more replayable, but also slower.
+**Is Home Alone Anomalies the same as Anomaly Watch?**
+No. They are separate Roblox experiences with similar names. The official page for this one describes a home-alone premise with visitors and a porch light, not the anomaly-spotting format of Anomaly Watch.
 
-**How many players is ideal for co-op anomaly hunting?**
-Player experience suggests two to three is the sweet spot. Duos split the house cleanly, and trios add a dedicated verifier without overwhelming the voice channel. Larger lobbies work, but only with strict zone assignments.
+**How many players can join one server?**
+Up to 18, according to the official Roblox record.
 
-**What causes false anomaly reports in a group?**
-Usually rendering differences, lighting settings, or field-of-view mismatches rather than genuine game bugs. A single-player-only sighting should be treated as unverified until someone else confirms it from a similar angle.
+**Does the porch light have to be on or off at specific times?**
+The official page only says to turn it off when something is off. It does not publish a timing table or a list of conditions.
 
-**Do I need voice chat to play these games with friends?**
-It is strongly recommended. Text chat is too slow for a timed loop, and most callout systems rely on quick location-first reporting. If built-in voice is unavailable, any low-latency external call works fine.
+**Are there promo codes?**
+The official page documents no codes. Treat any code list as unverified until you see it on the official page.
 
-The genre rewards patience more than reflexes. Build a route, agree on names, tag your confidence, and let a teammate be your second pair of eyes — that is the whole skill of home alone anomalies multiplayer in one sentence.
+**What are the new pets in UPDATE 12?**
+The Black Cat, White Cat, and Crawler Cat, introduced as part of the Halloween event. The page does not describe gameplay effects for them.
+
+**Can I guarantee I will survive every night?**
+No article can promise that, and neither can any guide. The game is built around judgment calls on incomplete information, so mistakes are part of the design.

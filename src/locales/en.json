@@ -26,17 +26,17 @@
     "hero": {
       "eyebrow": "Fan-Made Community Wiki",
       "title": "Home Alone Anomalies Wiki",
-      "description": "A horror mystery game focused on observing strange events, identifying anomalies, and surviving unsettling encounters inside an isolated home environment.",
+      "description": "A horror mystery game where you are home alone while visitors keep arriving at the door. Not everyone is who they claim to be — decide who to trust and survive the night.",
       "stats": [
-        "205M+ Visits",
+        "About 208M Visits",
         "Anomaly Checklist",
-        "0 Active Codes",
-        "Weekly Updates"
+        "No Public Codes",
+        "Halloween Event"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Anomaly Checklist",
-      "tertiaryCta": "Active Codes",
-      "videoLabel": "Official media"
+      "tertiaryCta": "Codes Status",
+      "videoLabel": "Gameplay Videos"
     },
     "updates": {
       "title": "Latest Updates",
@@ -54,18 +54,18 @@
         },
         {
           "number": "2",
-          "title": "All Working Codes",
-          "description": "Redeem free cosmetics, currency, and boosts with the latest Home Alone Anomalies codes and a step-by-step redemption walkthrough."
+          "title": "Codes Status",
+          "description": "There are no public Home Alone Anomalies codes documented right now; this page tracks any announcements and explains why codes may not exist."
         },
         {
           "number": "3",
           "title": "Who to Let In",
-          "description": "Compare each visitor through the peephole, spot the subtle glitches, and decide who is real before a wrong call resets your run."
+          "description": "Check the cameras, listen to what visitors say, and decide who is real before a wrong call resets your run."
         },
         {
           "number": "4",
           "title": "All Endings",
-          "description": "Line up every Home Alone Anomalies finale, the choices that trigger each one, and the fastest route to the ending you are still missing."
+          "description": "Every documented Home Alone Anomalies finale, the choices that trigger each one, and the fastest route to the ending you are still missing."
         }
       ]
     },
@@ -76,7 +76,7 @@
         "Anomaly Checklist",
         "Who to Let In",
         "All Endings",
-        "Working Codes"
+        "Codes Status"
       ],
       "cards": [
         {
@@ -87,8 +87,8 @@
         },
         {
           "badge": "Updated",
-          "title": "All Working Codes",
-          "description": "Where Home Alone Anomalies codes come from, how to redeem them, and why some stop working.",
+          "title": "Codes Status",
+          "description": "Where Home Alone Anomalies codes would come from, how to redeem them, and why some stop working.",
           "href": "/codes/home-alone-anomalies-codes"
         },
         {
@@ -138,11 +138,11 @@
         },
         {
           "label": "Visitor Profiles",
-          "value": "7"
+          "value": "Documented as encountered"
         },
         {
           "label": "Anomaly Families",
-          "value": "6"
+          "value": "Documented as encountered"
         },
         {
           "label": "Night Structure",
@@ -150,14 +150,14 @@
         },
         {
           "label": "Codes",
-          "value": "Tracked Weekly"
+          "value": "No public codes documented"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Home Alone Anomalies Wiki",
-      "description": "Everything you need to survive the night: visitor checks, a beginner walkthrough, a full anomaly checklist, camera and observation tools, working codes, and ending guides.",
+      "description": "Everything you need to survive the night: visitor checks, a beginner walkthrough, a full anomaly checklist, camera and observation tools, codes status, and ending guides.",
       "modules": [
         {
           "order": 1,
@@ -172,7 +172,7 @@
             },
             {
               "label": "Check",
-              "detail": "Observe face, clothing, shadow, and posture through the peephole from a fixed distance"
+              "detail": "Check the cameras and listen to what visitors say before deciding"
             },
             {
               "label": "Decide",
@@ -267,33 +267,33 @@
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S",
-              "detail": "Fixed-route camera sweep — the most reliable way to catch object swaps and lighting shifts"
+              "label": "Fixed-route camera sweep",
+              "detail": "Most reliable way to catch object swaps and lighting shifts"
             },
             {
-              "label": "A",
-              "detail": "Audio pause in every room — the only method that catches sound-only anomalies"
+              "label": "Audio pause in every room",
+              "detail": "Only method that catches sound-only anomalies"
             },
             {
-              "label": "B",
-              "detail": "Per-night journal notes — stops your baseline from drifting after a few runs"
+              "label": "Per-night journal notes",
+              "detail": "Stops your baseline from drifting after a few runs"
             },
             {
-              "label": "C",
-              "detail": "Flashlight-only checks — reveals fine detail but announces your position"
+              "label": "Flashlight-only checks",
+              "detail": "Reveals fine detail but announces your position"
             }
           ]
         },
         {
           "order": 6,
           "name": "Home Alone Anomalies Codes",
-          "description": "A dedicated codes section for tracking active rewards, event codes, and possible redemption information. If no official codes exist, the page can clearly display the current status.",
+          "description": "A dedicated codes section for tracking active rewards, event codes, and possible redemption information. Since no official codes are currently documented, the page clearly displays the current status.",
           "href": "/codes/home-alone-anomalies-codes",
           "displayType": "code-cards",
           "highlights": [
             {
               "label": "Status",
-              "detail": "There are no public Home Alone Anomalies codes active right now; this page tracks new drops as they are announced"
+              "detail": "There are no public Home Alone Anomalies codes documented right now; this page tracks new drops as they are announced"
             },
             {
               "label": "Case",
@@ -313,16 +313,16 @@
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "Night 2",
-              "detail": "A second night loop adds new rooms, extra visitor types, and a longer route"
+              "label": "Halloween Event",
+              "detail": "UPDATE 12 (10.10.2026) adds collectible pumpkins, a Halloween Pass, costumed visitors, new pets (Black Cat, White Cat, Crawler Cat), and a Top 100 pumpkin leaderboard with a Celestial Cat reward"
             },
             {
               "label": "New Faces",
-              "detail": "Fresh visitor profiles arrive with their own anomaly tells and door checks"
+              "detail": "Costumed visitors arrive during the Halloween event with their own tells"
             },
             {
               "label": "Fixes",
-              "detail": "Patch notes cover door logic, camera flicker, and co-op voice chat stability"
+              "detail": "Bug fixes and more included in the official update notes"
             }
           ]
         },
@@ -363,11 +363,11 @@
         },
         {
           "question": "Who should I let in in Home Alone Anomalies?",
-          "answer": "Use the peephole or a window and check the visitor's face, clothing, shadow, and posture against your baseline. If you can point to one specific mismatch, turn them away; if you cannot describe anything wrong, let them in."
+          "answer": "Check the cameras, observe the visitor through a window, and listen to what they say. If they need help, open the door; if something is off, turn off the porch light and do not let them in."
         },
         {
           "question": "Are there codes in Home Alone Anomalies?",
-          "answer": "The developers release Home Alone Anomalies codes for cosmetics, currency, and boosts during updates, milestones, and events. Codes are case-sensitive and often expire quietly, so redeem them the day you find them."
+          "answer": "There are no public Home Alone Anomalies codes documented right now. Any official codes would be announced by the developers, but none are currently listed on the official Roblox page."
         },
         {
           "question": "How many endings does Home Alone Anomalies have?",
@@ -375,7 +375,7 @@
         },
         {
           "question": "Can you play Home Alone Anomalies with friends?",
-          "answer": "Yes. Home Alone Anomalies supports co-op, and the most reliable setup is to split the house into zones, agree on who makes the final call, and use voice chat to share what you find."
+          "answer": "Yes. Home Alone Anomalies supports co-op with up to 18 players per server. Use voice chat to share what you find and split the house into zones."
         }
       ]
     },
@@ -396,15 +396,15 @@
   },
   "mechanics": {
     "overviewTitle": "Home Alone Anomalies Mechanics",
-    "overviewDescription": "How the Home Alone Anomalies rules really work: sanity, jumpscares, the fuse box, multiplayer sessions, and the anomaly checklist you follow each night."
+    "overviewDescription": "How the Home Alone Anomalies rules really work: cameras, audio clues, the porch light, multiplayer sessions, and the anomaly checklist you follow each night."
   },
   "lore": {
     "overviewTitle": "Home Alone Anomalies Lore & Story",
-    "overviewDescription": "The Home Alone Anomalies story explained, from the alien presence and monster sightings to the secret ending and community theories."
+    "overviewDescription": "The Home Alone Anomalies story explained, from the visitors who arrive at your door to the secret ending and community theories."
   },
   "controls": {
     "overviewTitle": "Home Alone Anomalies Controls & How-To",
-    "overviewDescription": "Hands-on Home Alone Anomalies tutorials: the full control list, how to make coffee, how to fix the fuse box, and the basics every new player needs."
+    "overviewDescription": "Hands-on Home Alone Anomalies tutorials: the full control list, how to check cameras, how to use the porch light, and the basics every new player needs."
   },
   "codes": {
     "overviewTitle": "Home Alone Anomalies Codes",
@@ -412,7 +412,7 @@
   },
   "updates": {
     "overviewTitle": "Home Alone Anomalies Updates",
-    "overviewDescription": "Home Alone Anomalies patch notes and release news, including new characters, new visitors, and Night 2 changes."
+    "overviewDescription": "Home Alone Anomalies patch notes and release news, including the Halloween event, new visitors, and seasonal content."
   },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
@@ -427,7 +427,7 @@
     "relatedReading": "Related Reading",
     "relatedGuides": "Related Guides",
     "readMore": "Read more",
-    "officialMedia": "Official media",
+    "officialMedia": "Gameplay Videos",
     "home": "Home",
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },

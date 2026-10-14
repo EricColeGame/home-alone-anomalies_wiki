@@ -1,120 +1,95 @@
 export const metadata = {
-  title: "Anomalías y jumpscares de Home Alone: cómo funciona el bucle de terror y cómo sobrevivir",
-  description: "Aprende cómo funcionan las anomalías y los jumpscares de Home Alone: tipos de anomalías, temporizadores de activación, bucles de reinicio y consejos prácticos para detectar cada cambio antes de que llegue el susto.",
+  title: "Home Alone Anomalies explicado: confianza, cámaras y lógica de visitantes",
+  description: "Cómo Home Alone Anomalies convierte las decisiones del timbre en un bucle de supervivencia, y cómo juzgar a los visitantes usando solo las herramientas que documenta la página de Roblox.",
   category: "mechanics",
-  date: "2026-10-12",
-}
+  date: "2026-10-14",
+};
 
-## Qué es realmente el bucle de anomalías y jumpscares de Home Alone
+La premisa de Home Alone Anomalies es lo bastante simple como para explicarla en una sola frase: estás solo en casa, la gente no deja de llamar a la puerta, y no todos dicen la verdad. Lo que hace interesante la experiencia no son los sustos repentinos, sino el bucle de decisiones. Cada llamada te pide comparar lo que dice un visitante con lo que realmente puedes verificar, y la página oficial del juego enumera exactamente qué herramientas de verificación tienes. Esa brecha entre lo que se afirma y la evidencia es la verdadera "anomalía" que los jugadores buscan.
 
-Pocas mecánicas de terror son tan eficaces como el pavor silencioso de una casa suburbana que está casi —pero no del todo— como la dejaste. Las anomalías y jumpscares de Home Alone convierten esa sensación en un sistema: recorres las mismas habitaciones, las comparas con tu memoria y decides si algo ha cambiado. Si aciertas, avanzas; si fallas, la pantalla estalla en ruido. Entender cómo se programan las anomalías y jumpscares de Home Alone es la diferencia entre un juego de adivinanzas estresante y un puzle que realmente puedes superar.
+Este artículo se ciñe a lo que indica la [página oficial de Roblox de Home Alone Anomalies](https://www.roblox.com/games/87468080405188/Home-Alone-Anomalies), además de observaciones de la comunidad claramente etiquetadas, y dice con claridad dónde se agota el registro. No trata sobre Anomaly Watch ni ningún otro juego de detectar anomalías, y no es una lista de códigos.
 
-En esencia, es una mecánica de observación envuelta en un ritmo de terror. La casa es el nivel, la anomalía es la cerradura y el jumpscare es la penalización por una respuesta incorrecta. Como el castigo es ruidoso y repentino en lugar de letal en el sentido tradicional, la tensión proviene de la incertidumbre y no del peligro, que es exactamente por lo que la fórmula sigue atrayendo a los jugadores.
+## Qué anuncia realmente la página oficial
 
-## El bucle principal: detectar, informar, reiniciar
+La descripción autorizada es breve y inusualmente específica. Indica a los jugadores que revisen las cámaras, escuchen lo que dicen los visitantes, abran la puerta si alguien necesita ayuda, apaguen la luz del porche si algo va mal, y sobrevivan la noche para ganar dinero. También menciona objetos troll para amigos.
 
-Cada partida sigue la misma estructura repetitiva. Apareces, recorres el entorno, tomas una decisión binaria y el mundo continúa o te castiga. El truco es que el bucle es deliberadamente corto, así que un solo detalle pasado por alto te cuesta toda la secuencia que acabas de construir.
+Ese es todo el conjunto de herramientas documentado. Cabe destacar:
 
-| Paso del bucle | Qué haces | Resultado correcto | Resultado de fallo |
-|---|---|---|---|
-| Entrada | Apareces en la misma habitación inicial | La partida continúa | — |
-| Barrido | Recorres una ruta fija por la casa | Anomalía confirmada o descartada | Detalle pasado por alto |
-| Decisión | Informas "cambió" o "sin cambios" | Avanzas al siguiente bucle | Jumpscare + reinicio |
-| Reinicio | La casa se recarga con un nuevo estado | Se genera una nueva anomalía | Se pierde el progreso de la partida |
+- Las cámaras son una herramienta de verificación, no decoración.
+- El diálogo de los visitantes es una señal que se supone que debes interpretar, no ignorar.
+- Abrir la puerta se plantea como la respuesta correcta ante una necesidad genuina, así que rechazar a todos no es la estrategia prevista.
+- Apagar la luz del porche es la respuesta documentada cuando algo va mal.
+- El dinero es la recompensa por sobrevivir, y los objetos troll existen para el juego social.
 
-El reinicio es la parte importante. En la mayoría de las versiones de esta mecánica, un informe incorrecto no solo te asusta: borra el contador de bucles y te envía de vuelta al inicio de la secuencia. Los informes de la comunidad lo describen de forma consistente como el elemento más castigador, porque convierte un lapsus momentáneo en varios minutos de trabajo repetido.
+La página no publica una lista de nombres de visitantes, tipos de anomalías, diseños de la casa, finales ni atajos de teclado. Cualquiera que presente un listado completo como un hecho está yendo más allá de la fuente.
 
-## Categorías de anomalías que encontrarás
+## Por qué las anomalías funcionan como un problema de decisión
 
-Las anomalías en un entorno de casa sola rara vez son dramáticas. El género funciona porque los cambios son lo bastante pequeños para ser plausibles y lo bastante grandes para ser demostrables. La mayoría de lo que enfrentarás pertenece a un puñado de familias.
+La mayoría de los juegos de anomalías te piden detectar una diferencia visual. Home Alone Anomalies te pide tomar una decisión irreversible con información incompleta, y luego vivir con la consecuencia hasta la mañana.
 
-| Categoría de anomalía | Ejemplo típico | Sutileza | Señal habitual |
-|---|---|---|---|
-| Colocación de objetos | Una silla movida, un cuadro inclinado | Alta | La silueta familiar se ve mal |
-| Presencia de objetos | Un objeto extra, un objeto faltante | Media | Un espacio vacío donde debería haber algo |
-| Iluminación | Una lámpara apagada, un cambio de color | Media | Dirección de sombra incoherente |
-| Texto y carteles | Notas, etiquetas o números alterados | Baja–Media | Cambia el significado, no solo la apariencia |
-| Audio | Un zumbido, un susurro, un sonido repetido | Alta | El sonido llega desde la habitación equivocada |
-| Entidad | Una figura en una puerta o ventana | Baja | Movimiento en la visión periférica |
+Esa estructura explica por qué las dos herramientas importan tanto. Las cámaras te dan evidencia independiente sobre lo que hay fuera. El diálogo te da la afirmación del visitante sobre por qué está ahí. Cuando ambas coinciden, abrir la puerta es razonable. Cuando la afirmación y lo que muestra la cámara entran en conflicto, la guía oficial te orienta a apagar la luz del porche en su lugar. La luz del porche, en otras palabras, es el botón de "esto no está bien" del juego: no un castigo, sino una respuesta correcta.
 
-La experiencia de los jugadores sugiere que las anomalías de colocación de objetos son las que más se pasan por alto, simplemente porque los jugadores buscan cambios "aterradores" y pasan por alto los mundanos. La categoría de entidad es la más fácil de detectar, pero también la más propensa a provocar una respuesta de pánico, lo que lleva directamente al siguiente problema.
+La tensión está en que verificar lleva tiempo. Si la simulación te presiona con llegadas repetidas, tarde o temprano tendrás que actuar con información parcial. Eso es el diseño, no un fallo en tu forma de jugar.
 
-## Disparadores de jumpscares y ventanas de tiempo
+## Contrastar lo que afirman los visitantes con la evidencia de las cámaras
 
-No todos los sustos se activan en el instante en que cometes un error. Muchas versiones separan la decisión de la consecuencia, lo cual es una elección de diseño deliberada: te da justo el tiempo suficiente para sentir alivio antes de que llegue el golpe.
+Como la página oficial trata el diálogo como una pista genuina, el hábito práctico es tratar cada llamada como una comprobación de dos pasos antes de tocar la puerta.
 
-| Tipo de disparador | Cuándo se activa | Sensación reportada por los jugadores |
-|---|---|---|
-| Inmediato | Con un informe incorrecto | Repentino, ruidoso, sin aviso |
-| Retrasado | Segundos después de una respuesta incorrecta | Falsa sensación de seguridad |
-| Proximidad | Al pasar junto a un punto específico | Sobresalta durante la exploración |
-| Inactividad | Quedarse quieto demasiado tiempo | Castiga la duda |
-| Programado | Puntos fijos en el conteo de bucles | Predecible una vez aprendido |
+| Paso | Qué haces | Qué te indica |
+| --- | --- | --- |
+| 1 | Escuchar el motivo declarado del visitante | La afirmación que estás poniendo a prueba |
+| 2 | Revisar la cámara para esa llegada | Si la afirmación está respaldada |
+| 3 | Abrir la puerta, o apagar la luz del porche | Tu decisión y su consecuencia |
 
-Los disparadores retrasados son los que rompen la concentración. Si alguna vez has informado una respuesta, has exhalado y luego te han golpeado mientras caminabas a la siguiente habitación, has experimentado directamente la intención del diseño. Una vez que reconoces que el susto puede retrasarse respecto a la decisión, dejas de relajarte en el momento en que envías una respuesta, y tu precisión durante el resto de la partida mejora notablemente.
+El orden importa. Si abres la puerta primero y razonas después, te has quitado tu propia capacidad de verificar. Los jugadores que sobreviven de forma consistente tienden a retrasar la puerta hasta que el paso dos esté completo, incluso cuando un visitante suena urgente.
 
-## Escalado de dificultad y cómo la partida castiga adivinar
+Una advertencia: el diálogo es una pista, no una garantía. Un visitante que dice algo plausible no es automáticamente seguro, y la página oficial nunca promete que escuchar correctamente produzca un veredicto perfecto. Trata el diálogo como evidencia que aumenta o reduce la sospecha, no como un candado.
 
-La escalada en estos juegos rara vez consiste en añadir nuevos tipos de monstruos. Se trata de reducir tu margen de error mientras se amplía el espacio que tienes que revisar.
+## Actualización de Halloween y contenido de temporada
 
-| Etapa de la partida | Frecuencia de anomalías | Claridad de la señal | Efecto práctico |
-|---|---|---|---|
-| Bucles iniciales | Ocasional | Obvia | Enseña la ruta y la línea base |
-| Partida media | Regular | Mixta | Obliga a una comparación real |
-| Partida tardía | Frecuente | Tenue | Castiga el escaneo casual |
-| Partida profunda | Constante | Muy tenue | Requiere un método fijo y repetible |
+Según el registro oficial recuperado el 14 de octubre de 2026, la página incluye la ACTUALIZACIÓN 12, fechada el 10 de octubre de 2026, como un evento de Halloween. Los elementos anunciados incluyen:
 
-Como el juego tardío depende de señales tenues en lugar de contenido nuevo, los jugadores que más aguantan suelen ser los que tienen los hábitos más aburridos. Revisan los mismos objetos en el mismo orden en cada bucle, lo que significa que cualquier desviación destaca contra una línea base mental estable. La improvisación se siente más rápida y casi siempre es más lenta.
+- Calabazas coleccionables y un Pase de Halloween
+- Visitantes disfrazados
+- Nuevas mascotas (Gato Negro, Gato Blanco, Gato Reptante)
+- Una tabla de clasificación de las 100 mejores calabazas con una recompensa de Gato Celestial
+- Correcciones de errores y contenido adicional no especificado
 
-## Un barrido de habitaciones repetible que realmente funciona
+Aquí conviene separar dos cosas. La existencia del evento, las mascotas nombradas y la recompensa de la tabla de clasificación provienen de la descripción oficial y deben tratarse como fiables. El comportamiento exacto de aparición de las calabazas, el precio del pase y las reglas de la tabla de clasificación no están documentados en esa página. Si necesitas esos detalles —por ejemplo, si el Pase de Halloween cuesta Robux o cómo se cuentan las calabazas—, consulta directamente la tienda dentro del juego y la interfaz de la tabla de clasificación en lugar de fiarte de un resumen.
 
-Si te llevas una sola cosa de esta guía, que sea el orden del barrido. Una ruta fija es lo más parecido a un aumento de precisión garantizado en un juego de terror de caza de anomalías.
+Los visitantes disfrazados son una adición realmente interesante para un juego de anomalías, porque un disfraz es una afirmación visual. Que un disfraz cambie cómo deberías evaluar a un visitante no se indica oficialmente. Ese es precisamente el tipo de pregunta que el juego quiere que respondas jugando.
 
-- **Empieza en el punto de entrada y avanza en el sentido de las agujas del reloj.** Nunca inviertas la dirección a mitad del bucle.
-- **Revisa primero las siluetas de los muebles grandes.** Camas, sofás y mesas anclan tu memoria de la habitación.
-- **Luego revisa las paredes.** Cuadros, relojes, estanterías y cualquier cosa montada.
-- **Después revisa el suelo.** Los objetos pequeños y los restos son lo que más se suele pasar por alto.
-- **Escanea las puertas y ventanas al final.** Aquí es donde aparecen las anomalías de entidad, así que también sirve como tu chequeo de seguridad final.
-- **Escucha durante un segundo completo antes de irte.** Las anomalías de audio necesitan silencio para registrarse.
+## Qué dicen las guías de la comunidad, y dónde se detienen
 
-| Fase del barrido | Objetivos | Tiempo a dedicar | Riesgo si se omite |
-|---|---|---|---|
-| Siluetas | Muebles, puertas | Corto | Cambios de colocación no detectados |
-| Paredes | Decoración, carteles | Medio | Ediciones de texto e iluminación no detectadas |
-| Suelo | Objetos pequeños | Medio | El punto ciego más común |
-| Salidas | Puertas, ventanas | Corto | Sustos de entidad, figuras no detectadas |
-| Pausa de audio | Sonido ambiente | Muy corto | Anomalías de audio no detectadas |
+Las guías de terceros y las publicaciones de jugadores describen Home Alone Anomalies como un juego de confianza por rondas en el que el estado de fracaso llega al dejar entrar a la persona equivocada. Ese planteamiento es coherente con la descripción oficial, así que es una observación secundaria razonable.
 
-La pausa de audio parece innecesaria hasta la primera vez que te salva. Como las anomalías de sonido no ocupan espacio visual, son invisibles incluso para un barrido visual perfecto.
+Más allá de eso, sé escéptico. Los escritos de la comunidad presentan con frecuencia listados firmes de visitantes, nombres exactos de anomalías, mapas de la casa y condiciones de final. Nada de eso aparece en la descripción oficial, y la experiencia se ha actualizado repetidamente: el registro muestra una última actualización el 10 de octubre de 2026, frente a una fecha de creación del 4 de mayo de 2026. Una guía escrita antes de un parche puede quedar silenciosamente obsoleta después. Cuando una guía y la página oficial no coincidan, gana la página oficial.
 
-## Consejos prácticos de la comunidad
+## Cómo verificar cualquier cosa que este artículo deje abierta
 
-Unos cuantos hábitos separan a los jugadores constantes de los que reinician cada pocos bucles. Provienen de la experiencia general de los jugadores con el género de terror de caza de anomalías, más que de una versión concreta.
+Si una mecánica no está documentada, tienes tres comprobaciones fiables, en orden de autoridad:
 
-- **Di la habitación en voz alta mientras la despejas.** La confirmación verbal reduce las comprobaciones dobles.
-- **No persigas el susto.** Buscar algo aterrador hace que te pierdas algo mundano.
-- **Trata cada bucle como idéntico.** En el momento en que asumes que una habitación es segura, dejas de comparar.
-- **Haz una pausa después de una respuesta incorrecta.** Si hay un disparador retrasado activo, apresurarte suele encadenar un segundo error.
-- **Registra tus fallos.** Saber qué categoría pasas por alto con más frecuencia es más útil que cualquier consejo general.
+1. La descripción de la página oficial del juego, que actualizan los desarrolladores.
+2. La propia interfaz dentro del juego: avisos, etiquetas de la interfaz y resúmenes posteriores a la ronda.
+3. Pruebas directas en un servidor privado o con poca población, donde puedas observar una variable a la vez.
 
-Para una visión más amplia de cómo se estructura este estilo de terror de observación, la página de la tienda de [The Exit 8 en Steam](https://store.steampowered.com/app/2653790/The_Exit_8/) es un punto de referencia útil sobre cómo la detección de anomalías se convirtió en una convención reconocible del género, aunque el entorno y las reglas difieran de un escenario de casa sola.
+Según el registro oficial, los servidores admiten hasta 18 jugadores, así que un lobby lleno añadirá ruido a cualquier experimento que hagas. Probar con menos jugadores facilita aislar qué cambió realmente tras una decisión.
 
 ## Preguntas frecuentes
 
-**¿Las anomalías y jumpscares de Home Alone son aleatorios o hay un patrón?**
+**¿Home Alone Anomalies es el mismo juego que Anomaly Watch?**
+No. Son experiencias de Roblox distintas, y sus mecánicas no deben confundirse.
 
-Están programados. Cada bucle genera un estado específico, y la anomalía —o su ausencia— se fija antes de que entres. Lo que parece aleatorio suele ser una señal tenue que aún no has aprendido, no un sistema impredecible.
+**¿Quién lo hizo?**
+El registro oficial lista a 3 AM Productions y Freeground como creadores.
 
-**¿Cuál es la forma más rápida de mejorar detectando anomalías?**
+**¿Hay códigos promocionales?**
+La página oficial no documenta ninguno. No supongas que existen códigos sin verlos en la página oficial o dentro del juego.
 
-Crea una ruta de barrido fija y nunca te desvíes de ella. La consistencia convierte la casa en una línea base estable, y cualquier cosa que rompa esa línea base se vuelve obvia sin que tengas que cazarla.
+**¿Abrir la puerta siempre significa perder?**
+No. La descripción oficial plantea abrir la puerta como la acción correcta cuando un visitante necesita ayuda de verdad, y apagar la luz del porche como la respuesta cuando algo va mal.
 
-**¿Por qué sigo asustándome después de responder correctamente?**
+**¿Hay una lista publicada de visitantes o anomalías?**
+No en la descripción oficial. Las guías de la comunidad ofrecen sus propias listas, pero trátalas como observaciones de terceros y no como documentación de los desarrolladores.
 
-Porque algunas versiones retrasan el jumpscare en lugar de vincularlo estrictamente a tu respuesta. El susto puede activarse segundos después, o dispararse por proximidad e inactividad. Mantenerte alerta después de enviar una respuesta es la solución.
-
-**¿Puedo desactivar las anomalías y jumpscares de Home Alone?**
-
-Muchas versiones incluyen una opción de accesibilidad o de volumen que reduce la intensidad de los sustos, aunque desactivar por completo el jumpscare a menudo también elimina el estado de fallo. Revisa el menú de ajustes antes de tu primera partida si el ruido repentino es un problema para ti.
-
-Domina el barrido, respeta el reinicio y trata cada bucle como si la casa ya hubiera cambiado. Esa mentalidad no eliminará los sustos, pero hará que sean algo que te ganas en lugar de algo que te sucede.
+La mentalidad más útil para Home Alone Anomalies es la misma que usarías en un porche real de noche: escucha lo que se afirma, comprueba lo que puedes ver de forma independiente, y acepta que a veces una decisión rápida es la única disponible. El juego recompensa esa disciplina con dinero y otra mañana: nada más, y nada garantizado.

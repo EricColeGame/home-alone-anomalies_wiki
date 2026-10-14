@@ -1,116 +1,76 @@
 export const metadata = {
-  title: "Guia Multijogador de Home Alone Anomalies: Mecânicas de Coop, Callouts e Estratégia",
-  description: "Saiba como funcionam as sessões multijogador de home alone anomalies: callouts em coop, divisão de funções, correções de dessincronização e estratégias para identificar anomalias em equipe.",
+  title: "Home Alone Anomalies: Um Guia Prático sobre Confiança, Câmeras e a Luz da Varanda",
+  description: "Como Home Alone Anomalies funciona no Roblox: verificação por câmeras, diálogo dos visitantes, a regra da luz da varanda e a atualização de Halloween de outubro de 2026.",
   category: "mechanics",
-  date: "2026-10-12",
-}
+  date: "2026-10-14",
+};
 
-## O Que São Home Alone Anomalies? Um Panorama Rápido do Gênero
+Se você já jogou algum jogo de detectar anomalias no Roblox, provavelmente acha que sabe como Home Alone Anomalies funciona. Você estaria meio certo. Esta experiência mantém o ciclo de observação e julgamento que deixa o gênero tenso, mas troca o corredor vazio por uma porta da frente, e troca "encontre a diferença" por "decida se deve deixar alguém entrar". Essa única mudança reformula tudo: a ameaça não é uma pintura deslocada ou uma cadeira duplicada, é uma pessoa pedindo sua ajuda enquanto você está do outro lado de uma porta trancada.
 
-O multijogador de home alone anomalies transforma uma casa suburbana vazia em um teste compartilhado de memória e nervos. Em vez de caçar falhas sozinho, você e um parceiro — ou um pequeno grupo — varrem os mesmos cômodos, comparam anotações e discutem se aquela luminária sempre esteve inclinada. Por que isso importa? Porque o gênero inteiro funciona à base de incerteza, e o multijogador de home alone anomalies torna essa incerteza social — mais barulhenta, mais engraçada e muito mais difícil de ignorar.
+A página oficial do Roblox de [Home Alone Anomalies](https://www.roblox.com/games/87468080405188/Home-Alone-Anomalies) apresenta a premissa diretamente. Você está em casa sozinho, visitantes continuam chegando, e nem todo mundo é quem diz ser. Seu trabalho é separar os visitantes genuínos dos impostores e sobreviver até a manhã. Foi criado pelos grupos 3 AM Productions e Freeground, suporta até 18 jogadores por servidor e havia acumulado aproximadamente 208 milhões de visitas conforme o registro oficial consultado em 14 de outubro de 2026. É uma experiência diferente de Anomaly Watch, apesar do vocabulário compartilhado, e confundir as duas vai fazer você procurar mecânicas que não existem aqui.
 
-Os jogos de anomalia fazem uma única pergunta: *o que mudou?* A variação "home alone" reduz o cenário a uma única casa — corredor, cozinha, quarto, porão — e aposta na sensação incômoda de um espaço que deveria estar vazio. A maioria das versões usa um ciclo: entrar, observar, reportar, reiniciar. Marque uma anomalia real corretamente e você avança; erre uma, ou reporte um cômodo limpo, e você perde progresso.
+## O que a página oficial realmente anuncia
 
-Jogadores de todo o gênero costumam descrever a tensão como algo que vem do comum, e não do monstruoso. Uma cadeira virada vinte graus. Uma fotografia que perdeu um rosto. Uma porta que agora está fechada quando antes estava aberta. Se você quer ter uma noção de como esses lançamentos baseados em observação se diversificaram, pode navegar pelo [catálogo de terror de anomalias da Steam](https://store.steampowered.com/search/?term=anomaly) e ver quantos deles se apoiam no mesmo ciclo de reporte.
+A descrição do desenvolvedor é incomumente específica sobre o ciclo principal, e vale a pena tratá-la como a autoridade em vez de depender de resumos de segunda mão. Ela lista verificar câmeras, ouvir o que os visitantes dizem, abrir a porta quando alguém precisa de ajuda e desligar a luz da varanda quando algo parece errado. Sobreviver à noite rende dinheiro, e há itens de troll projetados para serem usados em amigos. Esse é todo o esqueleto anunciado: observe, ouça, julgue, aja, repita até o amanhecer.
 
-A camada multijogador muda a matemática. No multijogador de home alone anomalies, o ciclo continua o mesmo, mas a carga de observação é dividida — e o custo de coordenação não é zero.
+Dois detalhes de design se destacam. Primeiro, a luz da varanda é uma variável de decisão real, não decoração. Desligá-la é apresentado como a resposta correta quando algo está errado, o que significa que a própria luz funciona como um sinal que você controla, em vez de um elemento fixo do cenário. Segundo, a página avisa explicitamente que nem todo mundo é quem diz ser. Essa redação importa: o jogo está dizendo que a identidade declarada de um visitante não é prova de nada, então o trabalho de verificação recai sobre você.
 
-| Elemento | Um Jogador | Multijogador |
-|---|---|---|
-| Carga de observação | Um jogador acompanha todos os cômodos | Dividida entre os jogadores, cada um vira especialista em uma zona |
-| Verificação de anomalias | Você decide sozinho | Uma segunda opinião filtra falsos positivos |
-| Pressão de memória | Alta — você guarda a casa inteira na cabeça | Menor por jogador, mas com maior custo de coordenação |
-| Falha comum | Deixar passar uma mudança sutil | Discordância, dessincronização ou um colega marcando errado |
-| Camada social | Nenhuma | Chat de voz, callouts, culpa, piadas internas |
+A página também documenta uma atualização atual. A UPDATE 12, datada de 10 de outubro de 2026, é um evento de Halloween com abóboras colecionáveis e um Passe de Halloween, visitantes fantasiados, novos pets (Gato Preto, Gato Branco e Gato Rastejante), um placar Top 100 de abóboras com uma recompensa de Gato Celestial, além de correções de bugs. Se você estiver jogando durante a janela do evento, espere que o conjunto de visitantes pareça diferente da versão base, porque chegadas fantasiadas fazem parte do conteúdo anunciado do evento.
 
-## Mecânicas Centrais do Multijogador Que Moldam Cada Sessão
+## A regra da luz da varanda, e por que é o ponto crucial
 
-Alguns poucos sistemas fazem a maior parte do trabalho no multijogador de home alone anomalies. Entendê-los é a diferença entre uma partida tranquila e vinte minutos discutindo num corredor.
+A maioria dos jogos do gênero te pune por perder um detalhe. Aqui, a luz da varanda te dá uma ferramenta ativa, e a redação oficial implica um padrão simples: se um visitante parece legítimo e precisa de ajuda, você abre a porta; se algo está errado, você apaga a luz. A parte difícil é que "algo está errado" é deliberadamente vago no material oficial. Os desenvolvedores não publicam uma lista de sinais, e nenhuma fonte confiável em que eu possa me basear fornece uma também.
 
-| Mecânica | Como Costuma Funcionar | Por Que Importa |
-|---|---|---|
-| Estado de anomalia compartilhado | A rodada gera uma lista oficial de anomalias ativas que todos os jogadores devem ver | Se a lista não estiver sincronizada, os jogadores realmente veem realidades diferentes e a confiança desmorona |
-| Renderização independente | Cada cliente desenha sua própria iluminação, campo de visão e distância de renderização | Pequenas diferenças de renderização criam anomalias "fantasma" que só um jogador consegue ver |
-| Etapa de confirmação | Alguns designs exigem que dois jogadores marquem a mesma coisa; outros aceitam um único reporte | Determina se o jogo é um teste de reflexo solo ou um verdadeiro exercício de dedução em equipe |
-| Cronômetro da rodada | Um relógio compartilhado que avança ou reinicia conforme as anomalias são resolvidas | Controla o ritmo e pune debates infinitos |
-| Penalidade / reset | Um reporte errado costuma reverter o progresso do lobby inteiro | Cria tensão, mas também cria culpa — o design importa aqui |
-| Atribuição de slot ou função | O host ou o lobby decide quem cobre qual ala | O maior recurso de qualidade de vida para grupos com mais de dois jogadores |
-| Chat de voz | Chat de proximidade integrado ou uma chamada externa | A velocidade dos callouts é o verdadeiro teto de habilidade da caça cooperativa a anomalias |
+Essa omissão não é uma lacuna que você deva tentar preencher com regras inventadas. Se você vir um guia alegando uma lista definitiva de nomes de anomalias, layouts de casas ou comportamentos exatos de visitantes, trate-o como uma observação de terceiros, na melhor das hipóteses. Guias de terceiros podem ser genuinamente úteis para aprender padrões, mas não são documentação do desenvolvedor e ficam desatualizados após as atualizações. A posição honesta é que a página oficial te diz os verbos (verificar câmeras, ouvir, abrir, desligar a luz) e deixa os critérios de julgamento para você aprender jogando.
 
-Relatos da comunidade frequentemente destacam a etapa de confirmação como a mecânica mais divisiva. Exigir dois reportes faz as sessões parecerem trabalho de detetive, mas deixa tudo mais lento e pode travar uma dupla que discorda. Aceitar reportes únicos mantém o ritmo ágil, mas dá a trolls uma forma fácil de fazer todo mundo perder tempo.
+O que você pode fazer é jogar o ciclo de forma deliberada. Use as câmeras antes de tocar na porta, para não decidir baseado apenas em uma voz. Ouça a linha completa de diálogo em vez de reagir à primeira palavra. Depois faça uma escolha: porta ou escuridão. Se você errar, aprende algo específico sobre o que aquele tipo de visitante faz, o que é mais valioso do que memorizar a lista de outra pessoa.
 
-## Callouts e Comunicação: O Coração da Caça Cooperativa a Anomalias
+| Documentado pela página oficial | Não documentado por fontes oficiais |
+| --- | --- |
+| Verificação por câmeras como ação principal | Uma lista nominal de visitantes ou anomalias |
+| Ouvir o diálogo dos visitantes | Falas exatas de diálogo ou frases de gatilho |
+| Abrir a porta quando alguém precisa de ajuda | Layout da casa ou mapa sala por sala |
+| Desligar a luz da varanda quando algo está errado | Finais alternativos ou suas condições |
+| Ganhar dinheiro por sobreviver à noite | Valores de pagamento ou preços |
+| Itens de troll para amigos | Códigos promocionais de qualquer tipo |
+| Evento de Halloween da UPDATE 12, pets, placar de abóboras | Taxas de drop de colecionáveis ou pets |
 
-Os callouts são o tecido conjuntivo do multijogador de home alone anomalies. Um callout vago — "tem algo estranho na cozinha" — custa uma varredura inteira à sua equipe. Um preciso custa três segundos.
+## Câmeras, diálogo e o ciclo de dinheiro
 
-| Tipo de Callout | Exemplo | Por Que Ajuda |
-|---|---|---|
-| Localização primeiro | "Corredor de cima, parede norte" | Faz os colegas olharem imediatamente em vez de perguntar onde |
-| Descrição do delta | "O porta-retrato está vazio", "o relógio marca diferente" | Descreve a mudança, não a sua interpretação dela |
-| Etiqueta de confiança | "Confirmado" vs. "Talvez" | Permite que a equipe priorize sem precisar debater |
-| Reporte negativo | "Cozinha limpa" | Evita que três pessoas varram o mesmo cômodo |
-| Pedido de verificação | "Preciso de olhos no escritório" | Direciona um segundo jogador rapidamente para um cômodo em disputa |
+A etapa das câmeras existe para tornar a decisão da porta informada em vez de cega. Na prática, isso significa que as câmeras são sua primeira passada e a porta é seu compromisso. A página oficial combina câmeras com escuta, o que sugere que os dois devem ser usados juntos: o que você vê do lado de fora e o que você ouve do visitante devem se corroborar. Quando não se alinham, essa discrepância é seu sinal.
 
-Alguns hábitos separam equipes organizadas das caóticas:
+Sobreviver à noite paga dinheiro, segundo a descrição oficial. A página não informa valores, multiplicadores ou o que o dinheiro compra, então qualquer pessoa citando um número específico está ou fazendo datamining sem atribuição ou adivinhando. A suposição segura é que o dinheiro é uma moeda de progressão ligada a quantas noites você sobrevive, e que a consistência importa mais do que qualquer corrida sortuda isolada.
 
-- **Combinem os nomes dos cômodos antes da rodada começar.** "O quarto azul" não significa nada se metade do lobby o chama de quarto de hóspedes.
-- **Mantenham os callouts com menos de cinco palavras.** Frases longas são atropeladas quando duas pessoas veem algo ao mesmo tempo.
-- **Nunca diga "parece estranho" sem uma comparação.** Jogos baseados em memória recompensam comparações, não intuições.
-- **Não fale por cima de quem está lendo o log de reportes.** A maioria das derrotas no multijogador de home alone anomalies começa com uma linha de confirmação perdida.
-- **Repita uma anomalia confirmada uma vez, e pare.** Repetir cinco vezes soterra o próximo callout.
+O teto de 18 jogadores por servidor vale a pena notar porque molda a textura social. Com tantas pessoas em um servidor, a experiência não é puramente de terror solitário; você verá outros jogadores passando pela mesma noite. Os itens de troll, que a página descreve como utilizáveis em amigos, confirmam que os desenvolvedores pretendem uma certa dose de interferência cômica junto com a tensão. Se você estiver jogando em grupo, espere que alguém use um em você, e não interprete isso como um bug.
 
-## Funções, Rotas e Estratégia de Varredura da Casa
+## A atualização de Halloween e o que ela muda
 
-No multijogador de home alone anomalies, as funções importam mais do que a velocidade bruta de observação. Um jogador rápido sem rota desperdiça mais tempo do que um jogador lento com um caminho fixo.
+A UPDATE 12, datada de 10 de outubro de 2026, é a mudança documentada mais recente. Três elementos estão confirmados: abóboras colecionáveis com um placar Top 100, um Passe de Halloween e novos pets em três variantes. O placar de abóboras é competitivo, e o Gato Celestial está listado como uma recompensa vinculada a ele, embora a página não especifique o limite exato de colocação além de "Top 100". Os pets em si são adições cosméticas ou de estilo companheiro, pelo que o texto oficial indica; nada na página descreve efeitos de gameplay para o Gato Preto, o Gato Branco ou o Gato Rastejante, então não presuma que eles mudam o comportamento dos visitantes.
 
-| Função | Tarefa | Melhor Para |
-|---|---|---|
-| Varredor | Percorre uma rota fixa e reporta apenas os deltas | Jogadores com forte memória visual |
-| Âncora / Verificador | Fica no centro e checa cômodos em disputa quando solicitado | Jogadores calmos que resistem ao pânico |
-| Documentador | Acompanha quais anomalias estão confirmadas e quais estão pendentes | Qualquer um que goste de anotar ou de uma checklist compartilhada |
-| Corredor | Cuida dos resets, checagens de portas e objetivos sensíveis ao tempo | Jogadores que preferem se mover a ficar olhando |
+Visitantes fantasiados são a outra mudança significativa. Se o evento de Halloween estiver ativo, algumas chegadas estarão fantasiadas, o que provavelmente complica a questão de identidade no coração do jogo. Se isso os torna mais fáceis ou mais difíceis de interpretar não está documentado, e é o tipo de coisa que você deve verificar por conta própria em um servidor ao vivo em vez de confiar em um resumo.
 
-O planejamento de rotas é onde a maioria dos grupos melhora silenciosamente. Experimente estes padrões:
+## Verificando qualquer coisa que você leia em outro lugar
 
-1. **Varreduras fixas no sentido horário.** Todos os jogadores andam na mesma direção a cada volta para que ninguém se choque numa porta.
-2. **Uma volta limpa, uma volta detalhada.** A primeira passagem é uma base rápida; a segunda é lenta e comparativa.
-3. **Alterne as funções a cada poucas rodadas.** Um verificador que nunca varreu um cômodo não consegue julgar se o reporte de um colega é plausível.
-4. **Avise a troca.** "Trocando para verificador" evita que duas pessoas façam a mesma coisa enquanto um terceiro cômodo fica sem checagem.
+Como a documentação do desenvolvedor é escassa em especificidades, o caminho de verificação mais confiável é o próprio jogo mais a página oficial. Abra a página da loja, leia o texto da descrição com atenção e confira a data da última atualização na parte inferior. Se um guia contradiz a página, a página vence. Se um guia afirma que existem códigos promocionais, note que a página oficial não documenta nenhum, então qualquer lista de códigos circulando online deve ser tratada como não verificada.
 
-## Pontos de Falha, Correções e Escalonamento de Dificuldade
-
-A maior parte da frustração no multijogador de home alone anomalies remete a um pequeno conjunto de problemas previsíveis. Nenhum deles exige um patch — exige um protocolo.
-
-| Problema | Sintoma | Correção |
-|---|---|---|
-| Dessincronização ou diferenças de iluminação | Um jogador jura que o cômodo mudou; ninguém mais vê | Trate reportes de um único jogador como "não verificados" e siga em frente em vez de reiniciar a rodada |
-| Atraso de voz | Os callouts chegam depois que o cômodo já foi deixado | Use callouts com localização primeiro para que o áudio atrasado ainda faça sentido |
-| Excesso de confiança | A equipe para de checar porque um jogador "sempre acerta" | Alterne a função de verificador para que ninguém se torne a única fonte de verdade |
-| Visão em túnel | Um grupo foca demais em um cômodo e perde três outros | Imponha a varredura fixa mesmo quando algo parecer suspeito |
-| Griefing ou marcações falsas | Um jogador reporta cômodos limpos repetidamente | Exija duas confirmações, ou jogue com um grupo de confiança |
-| Grupo grande demais | Todos falam, ninguém observa | Limite o lobby ou atribua zonas estritamente separadas |
-
-O tamanho do grupo muda toda a experiência, e a maioria dos grupos encontra seu ponto ideal depois de algumas sessões:
-
-| Tamanho do Grupo | Configuração Recomendada | Observações |
-|---|---|---|
-| Solo | Casa inteira, sem funções | Teste puro de memória; a versão mais difícil do ciclo |
-| Dupla | Dividam a casa ao meio, troquem no meio da rodada | Melhor equilíbrio entre tensão e comunicação |
-| Trio | Dois varredores, um verificador | Verificação rápida sem caos no chat de voz |
-| Quatro ou mais | Zonas fixas, uma âncora, regras rígidas de callout | Divertido, mas exige disciplina; nomeiem um locutor |
+Dentro de uma sessão, você pode testar afirmações a baixo custo. Observe um visitante pela câmera durante toda a aproximação, ouça o diálogo inteiro, depois faça sua escolha e anote o resultado. Repita ao longo de várias noites e você constrói seu próprio conjunto de dados privado, o que supera listas emprestadas que foram escritas antes da UPDATE 12.
 
 ## FAQ
 
-**O multijogador de home alone anomalies é melhor do que jogar sozinho?**
-É diferente, não necessariamente melhor. O jogo solo é um teste puro de memória e nervos. O multijogador de home alone anomalies adiciona verificação, culpa e negociação — o que o torna mais social e muitas vezes mais rejogável, mas também mais lento.
+**Home Alone Anomalies é a mesma coisa que Anomaly Watch?**
+Não. São experiências separadas do Roblox com nomes parecidos. A página oficial desta descreve uma premissa de casa sozinho com visitantes e uma luz de varanda, não o formato de detectar anomalias de Anomaly Watch.
 
-**Quantos jogadores é o ideal para a caça cooperativa a anomalias?**
-A experiência dos jogadores sugere que de dois a três é o ponto ideal. As duplas dividem a casa de forma limpa, e os trios adicionam um verificador dedicado sem sobrecarregar o canal de voz. Lobbies maiores funcionam, mas apenas com atribuições de zona bem definidas.
+**Quantos jogadores podem entrar em um servidor?**
+Até 18, segundo o registro oficial do Roblox.
 
-**O que causa reportes falsos de anomalias em um grupo?**
-Normalmente diferenças de renderização, configurações de iluminação ou incompatibilidades de campo de visão, e não bugs reais do jogo. Um avistamento visto por apenas um jogador deve ser tratado como não verificado até que outra pessoa o confirme de um ângulo semelhante.
+**A luz da varanda precisa estar ligada ou desligada em momentos específicos?**
+A página oficial só diz para desligá-la quando algo está errado. Ela não publica uma tabela de tempo ou uma lista de condições.
 
-**Preciso de chat de voz para jogar esses jogos com amigos?**
-É altamente recomendável. O chat de texto é lento demais para um ciclo cronometrado, e a maioria dos sistemas de callout depende de reportes rápidos com localização primeiro. Se não houver voz integrada, qualquer chamada externa de baixa latência funciona bem.
+**Existem códigos promocionais?**
+A página oficial não documenta nenhum código. Trate qualquer lista de códigos como não verificada até vê-la na página oficial.
 
-O gênero recompensa paciência mais do que reflexos. Monte uma rota, combinem os nomes, marque sua confiança e deixe um colega ser o seu segundo par de olhos — essa é toda a habilidade do multijogador de home alone anomalies em uma frase.
+**Quais são os novos pets da UPDATE 12?**
+O Gato Preto, o Gato Branco e o Gato Rastejante, introduzidos como parte do evento de Halloween. A página não descreve efeitos de gameplay para eles.
+
+**Posso garantir que vou sobreviver todas as noites?**
+Nenhum artigo pode prometer isso, e nenhum guia também. O jogo é construído em torno de decisões de julgamento com informações incompletas, então erros fazem parte do design.
